@@ -3,9 +3,7 @@ echo "Thanks for trying Remotely!"
 echo
 
 read -p "Enter path where the Remotely server files should be installed (typically /var/www/remotely): " appRoot
-if [ -z "$appRoot" ]; 
-
-then
+if [ -z "$appRoot" ]; then 
     appRoot="/var/www/remotely"
 fi
 
